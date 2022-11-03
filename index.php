@@ -1,5 +1,5 @@
 <?php
 
-echo '<p> First web on Azure </p>';
+echo '<h2> First web on Azure </h2>';
 
 ?>
