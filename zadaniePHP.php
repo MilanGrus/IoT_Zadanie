@@ -4,12 +4,18 @@ table {
     margin: 8px;
 }
 
+td {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .7em;
+    border: 1px solid #DDD;
+}
+
 </style>
 
 
 <?php
 
 echo "<table>";
-echo '<p>index2.php</p>'
+echo '<td>hello</td>'
 
 ?>
