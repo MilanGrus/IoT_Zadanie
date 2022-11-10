@@ -10,5 +10,6 @@ table {
 <?php
 
 echo "<table>";
+echo '<p>index2.php</p>'
 
 ?>
