@@ -1,7 +1,7 @@
 <?php
 echo '<h1>Moja stranka</h1>';
         
-echo '<p>text</p>';
+echo '<p>index2.php</p>';
 
 
 $sn1 = $_GET["a"];
