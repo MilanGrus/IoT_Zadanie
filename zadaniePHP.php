@@ -7,7 +7,7 @@ table {
 td {
     font-family: Arial, Helvetica, sans-serif;
     font-size: .7em;
-    color: #FFF;
+    color: #FF0000;
     border: 1px solid #DDD;
 }
 
