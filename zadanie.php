@@ -1,5 +1,5 @@
 <?php>
 
-echo '<h1>table</h1>';
+echo '<h1>getParameters page</h1>';
 
 ?>
