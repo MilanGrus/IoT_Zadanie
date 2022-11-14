@@ -1,3 +1,3 @@
 <?php>
-echo "<p>table</p>";
+echo '<p>table</p>';
 ?>
