@@ -1,5 +1,5 @@
 <?php>
 
-echo '<p>table</p>';
+echo '<h1>table</h1>';
 
 ?>
