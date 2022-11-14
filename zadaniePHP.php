@@ -12,13 +12,4 @@ echo '<td>hello</td>'
 
 ?>
 
-table {
-    margin: 8px;
-}
 
-td {
-    font-family: <?=$font_family?>;
-    font-size: <?=$font_size?>;
-    color: #FF0000;
-    border: <?=$border?> #000;
-}
