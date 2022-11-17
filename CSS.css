@@ -28,9 +28,9 @@ header {
  
 article {
          min-height: 200px;
-         border: 1px solid red;
+         border: 1px solid blue;
          border-radius: 20px;
-         box-shadow: 10px 10px 40px 0px #630900 inset;
+         box-shadow: 10px 10px 40px 0px #150063 inset;
          font-family: Arial;
          background-color: #ffffff;
          opacity: 0.6;
