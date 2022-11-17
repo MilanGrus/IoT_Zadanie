@@ -12,7 +12,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS.css" type="text/css">
-    <link rel="ikona" href="https://www.pngkey.com/png/detail/452-4529166_transparent-fire-embers-png-banner-black-and-white.png" type="image/icon type">
+    <link rel="shortcut icon" href="https://www.pngkey.com/png/detail/452-4529166_transparent-fire-embers-png-banner-black-and-white.png">
     <title>Document</title>
 </head>
 
