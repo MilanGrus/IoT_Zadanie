@@ -20,7 +20,7 @@ header,article {
 }
  
 header {
-    height: 40px;
+    height: 160px;
     background-image: url(obr.jpg);
     background-repeat: no-repeat;
     text-align: center;
@@ -44,8 +44,8 @@ h1, h2 {
 
 h1.b {
 text-shadow: none;
-font-size: 50px;
-font-family: Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
+font-size: 55px;
+font-family: Akzidenz-Grotesk, Clarendon, Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
 color: dark silver;
 }   
                      
