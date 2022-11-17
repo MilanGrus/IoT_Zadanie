@@ -20,7 +20,7 @@ header,article {
 }
  
 header {
-    height: 200px;
+    height: 40px;
     background-image: url(obr.jpg);
     background-repeat: no-repeat;
     text-align: center;
