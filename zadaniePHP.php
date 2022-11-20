@@ -39,13 +39,6 @@
         <label for="name">Priezvisko:</label>
         <input type="text" name="surname" placeholder="Lovec" autofocus>
         <span class="error2">* <?php echo $nameErr;?></span>
-
-        <br> <br>
-
-        <label>Pohlavie:</label>
-        <input type="radio" name="gender" value="muž">Muž
-        <input type="radio" name="gender" value="žena">Žena
-        <input type="radio" name="gender" value="iné">Iné
         
         <br> <br>
 
@@ -59,6 +52,13 @@
         <input type="text" name="email" placeholder="jakublovec@gmail.com" autofocus>
         <span class="error2">* <?php echo $nameErr;?></span>
 
+        <br> <br>
+
+        <label>Pohlavie:</label>
+        <input type="radio" name="gender" value="muž">Muž
+        <input type="radio" name="gender" value="žena">Žena
+        <input type="radio" name="gender" value="iné">Iné
+        
         <br> <br>
 
         <label>Status:</label>
