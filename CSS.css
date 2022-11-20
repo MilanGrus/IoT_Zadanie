@@ -21,7 +21,7 @@ header,article {
  
 header {
     height: 160px;
-    /*text-align: center;*/
+    text-align: center;
     position: relative;
     animation: animation 10s linear 4s infinite alternate;
 }
@@ -95,9 +95,9 @@ input[type="radio"] {
 
 
 @keyframes animation {
-    0%   {background-color:red; left:100%; top:100%;}
-    25%  {background-color:yellow; left:0%; top:100%;}
-    50%  {background-color:blue; left:0%; top:0%;}
-    75%  {background-color:green; left:100%; top:0%;}
-    100% {background-color:red; left:100%; top:100%;}
+    0%   {background-color:red; left:0px;}
+    25%  {background-color:yellow; left:-150px;}
+    50%  {background-color:blue; left:0px;}
+    75%  {background-color:green; left:150px;}
+    100% {background-color:red; left:0px;}
 }
