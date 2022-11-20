@@ -34,7 +34,7 @@
         <span class="error">* <?php echo $nameErr;?></span>
         
 
-        <label for="name">Priezvisko:</label>
+        <label for="name">      Priezvisko:</label>
         <input type="text" id="surname" placeholder="Lovec" autofocus>
         <span class="error">* <?php echo $nameErr;?></span>
 
