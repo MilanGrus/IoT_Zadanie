@@ -12,7 +12,7 @@ body {
     color: black;
 }
 
-header,div {
+header,article {
     display: block;
     width: 700px;
     margin: auto;
@@ -23,10 +23,10 @@ header {
     height: 160px;
     text-align: center;
     position: relative;
-    animation: animation 5s linear 2s infinite alternate;
+    /*animation: animation 5s linear 2s infinite alternate;*/
 }
  
-div {
+article {
          min-height: 200px;
          border: 1px solid blueviolet;
          border-radius: 20px;
@@ -68,15 +68,15 @@ input {
 }
 
 input[name="name"] {
-    font-size: 25px;
+    font-size: 15px;
     font-weight: bold;
-    color: black;
+    color: red;
 }
-
+/*
 @keyframes animation {
     0%   {background-color:red; left:0px; top:0px;}
     25%  {background-color:yellow; left:200px; top:0px;}
     50%  {background-color:blue; left:200px; top:200px;}
     75%  {background-color:green; left:0px; top:200px;}
     100% {background-color:red; left:0px; top:0px;}
-  }
+}*/
