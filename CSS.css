@@ -85,6 +85,7 @@ input[type="radio"] {
 }
 
 input[type="submit"] {
+    border-style: solid;
     font-size: 20px;
     font-family: 'Dancing Script', 'Palatino Linotype', Georgia, 'Times New Roman';
     font-weight: bold;
