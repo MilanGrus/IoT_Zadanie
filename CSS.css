@@ -23,7 +23,7 @@ header {
     height: 160px;
     text-align: center;
     position: relative;
-    animation: animation 10s linear 4s infinite alternate;
+    animation: animation 5s linear 2s infinite alternate;
 }
  
 article {
@@ -95,9 +95,9 @@ input[type="radio"] {
 
 
 @keyframes animation {
-    0%   {background-color:red; left:0px;}
-    25%  {background-color:yellow; left:-150px;}
-    50%  {background-color:blue; left:0px;}
-    75%  {background-color:green; left:150px;}
-    100% {background-color:red; left:0px;}
+    0%   {background-color:none; left:0px;}
+    25%  {background-color:none; left:-150px;}
+    50%  {background-color:none; left:0px;}
+    75%  {background-color:none; left:150px;}
+    100% {background-color:none; left:0px;}
 }
