@@ -25,25 +25,25 @@
         
         <label for="name">Meno:</label>
         <input type="text" name="name" placeholder="Jakub" autofocus>
-        <span class="error">* <?php echo $nameErr;?></span>
+        <span class="error">*</span>
         
         
 
         <label for="name">Priezvisko:</label>
         <input type="text" name="surname" placeholder="Lovec" autofocus>
-        <span class="error2">* <?php echo $nameErr;?></span>
+        <span class="error2">*</span>
         
         <br> <br>
 
         <label for="name">Mobil:</label>
         <input type="text" name="tel_num" placeholder="0988 888 882" autofocus>
-        <span class="error">* <?php echo $nameErr;?></span>
+        <span class="error">*</span>
       
         
 
         <label>Mail:</label>
         <input type="text" name="email" placeholder="jakublovec@gmail.com" autofocus>
-        <span class="error2">* <?php echo $nameErr;?></span>
+        <span class="error2">*</span>
 
         <br> <br>
 
