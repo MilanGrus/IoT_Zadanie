@@ -1,4 +1,29 @@
+<?php
+    $file1 = fopen("output.txt","w") or die("Unable to open file!");
 
+    $name = $surname = $tel_num = $email = $gender = $status = $gamer = "";
+
+    $name = $_POST["name"];
+    $surname = $_POST["surname"];
+    $tel_num = $_POST["tel_num"]
+    $email = $_POST["email"];
+    $gender = $_POST["gender"];
+    $status = $_POST["status"];
+    $gamer = $_POST["gamer"];
+
+    if(isset($_POST['submit'])){
+  
+        fwrite($file1, "Meno: ".$_POST['name'].PHP_EOL);
+        fwrite($file1, "Priezvisko: ".$_POST['surname'].PHP_EOL);
+        fwrite($file1, "Telefónné číslo: ".$_POST['tel_num'].PHP_EOL);
+        fwrite($file1, "E-mail: ".$_POST['email'].PHP_EOL);
+        fwrite($file1, "Pohlavie: ".$_POST['gender'].PHP_EOL);
+        fwrite($file1, "Socialný status: ".$_POST['status'].PHP_EOL);
+        fwrite($file1, "Je God Gamer?: ".$_POST['gamer'].PHP_EOL);
+    }
+
+    fclose($file1);
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -74,33 +99,6 @@
       
       
 </article>
-
-<?php
-    $file1 = fopen("output.txt","w") or die("Unable to open file!");
-
-    $name = $surname = $tel_num = $email = $gender = $status = $gamer = "";
-
-    $name = $_POST["name"];
-    $surname = $_POST["surname"];
-    $tel_num = $_POST["tel_num"]
-    $email = $_POST["email"];
-    $gender = $_POST["gender"];
-    $status = $_POST["status"];
-    $gamer = $_POST["gamer"];
-
-    if(isset($_POST['submit'])){
-  
-        fwrite($txt, "Meno: ".$_POST['name'].PHP_EOL);
-        fwrite($txt, "Priezvisko: ".$_POST['surname'].PHP_EOL);
-        fwrite($txt, "Telefónné číslo: ".$_POST['tel_num'].PHP_EOL);
-        fwrite($txt, "E-mail: ".$_POST['email'].PHP_EOL);
-        fwrite($txt, "Pohlavie: ".$_POST['gender'].PHP_EOL);
-        fwrite($txt, "Socialný status: ".$_POST['status'].PHP_EOL);
-        fwrite($txt, "Je God Gamer?: ".$_POST['gamer'].PHP_EOL);
-    }
-
-    fclose($file1);
-?>
 
 </body>
 
