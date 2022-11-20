@@ -37,6 +37,10 @@ article {
          filter: alpha(opacity=80);
          color: black;
 } 
+
+form {
+    padding: 2rem;
+}
            
 h1.b {
 text-shadow: none;
