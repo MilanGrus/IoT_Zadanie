@@ -12,7 +12,7 @@ body {
     color: black;
 }
 
-header,article {
+header,div {
     display: block;
     width: 700px;
     margin: auto;
@@ -26,7 +26,7 @@ header {
     animation: animation 5s linear 2s infinite alternate;
 }
  
-article {
+div {
          min-height: 200px;
          border: 1px solid blueviolet;
          border-radius: 20px;

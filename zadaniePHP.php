@@ -26,7 +26,7 @@
       
 </header>
 
-<article>
+<div>
       
     <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
         <label for="name">Meno:</label>
@@ -41,7 +41,7 @@
     </form>
       
       
-</article>
+</div>
 
 </body>
 
