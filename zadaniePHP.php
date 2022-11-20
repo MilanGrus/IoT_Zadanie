@@ -53,7 +53,7 @@
         <input type="text" name="tel_num" placeholder="0988 888 882" autofocus>
         <span class="error2">* <?php echo $nameErr;?></span>
       
-        <br> <br>
+        
 
         <label>Mail:</label>
         <input type="text" name="email" placeholder="jakublovec@gmail.com" autofocus>

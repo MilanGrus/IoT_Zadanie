@@ -27,15 +27,18 @@ header {
 }
  
 article {
-         min-height: 200px;
-         border: 1px solid blueviolet;
-         border-radius: 20px;
-         box-shadow: 10px 10px 40px 0px #150063 inset;
-         font-family: Arial;
-         background-color: #ffffff;
-         opacity: 0.8;
-         filter: alpha(opacity=80);
-         color: black;
+    min-height: 200px;
+    border: 1px solid blueviolet;
+    border-radius: 20px;
+    box-shadow: 10px 10px 40px 0px #150063 inset;   
+    background-color: #ffffff;
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Dancing Script', 'Palatino Linotype', Georgia, 'Times New Roman';
+    font-weight: bold;
+    color: black;
 } 
 
 form {
@@ -81,7 +84,6 @@ input[type="radio"] {
     font-size: 15px;
     font-family: 'Palatino Linotype', Georgia, 'Times New Roman';
     font-weight: bold;
-    align-content: center;
     color: black;
 }
 
@@ -90,7 +92,6 @@ input[type="submit"] {
     font-size: 20px;
     font-family: 'Dancing Script', 'Palatino Linotype', Georgia, 'Times New Roman';
     font-weight: bold;
-    align-content: right;
     color: white;
     background-color: red;
 }
