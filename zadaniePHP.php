@@ -2,6 +2,8 @@
     $file1 = fopen("output.txt","w") or die("Unable to open file!");
 
 
+
+    fclose($file1);
 ?>
 
 <!DOCTYPE html>
@@ -26,13 +28,12 @@
 
 <article>
       
-      <h2>Svet</h2>
-      <p>Život, osud, smrt.</p>
-      <h2> Dejiny</h2>
-      <p>Gryfí dynastie.</p>
+    <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
+        Name: <input type="text" name="name">
+        <span class="error">* <?php echo $nameErr;?></span>
+        <br><br>
       
-      
-      
+    </form>
       
       
 </article>
