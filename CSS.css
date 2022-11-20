@@ -65,8 +65,9 @@ input {
 
 input[name="name"] {
     font-size: 15px;
+    font-family: Georgia, 'Palatino Linotype', 'Times New Roman';
     font-weight: bold;
-    color: red;
+    color: black;
 }
 /*
 @keyframes animation {
