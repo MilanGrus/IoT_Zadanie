@@ -29,14 +29,15 @@
 <article>
       
     <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
+        
         <label for="name">Meno:</label>
-        <input type="text" name="name" placeholder="Jakub" autofocus>
+        <input type="text2" name="name" placeholder="Jakub" autofocus>
         <span class="error">* <?php echo $nameErr;?></span>
         
         
 
         <label for="name">Priezvisko:</label>
-        <input type="text2" name="surname" placeholder="Lovec" autofocus>
+        <input type="text" name="surname" placeholder="Lovec" autofocus>
         <span class="error">* <?php echo $nameErr;?></span>
 
         <br> <br>
@@ -52,7 +53,7 @@
         <span class="error">* <?php echo $nameErr;?></span>
 
         <br> <br>
-        
+
         <label>Pohlavie:</label>
         <input type="radio" name="gender" value="zena">Zena
         <input type="radio" name="gender" value="muz">Muz

@@ -81,6 +81,15 @@ input[type="text2"] {
     font-weight: bold;
     color: black;
 }
+
+input[type="radio"] {
+    margin-left: 10px;
+    font-size: 15px;
+    font-family: 'Palatino Linotype', Georgia, 'Times New Roman';
+    font-weight: bold;
+    color: black;
+}
+
 /*
 @keyframes animation {
     0%   {background-color:red; left:0px; top:0px;}
