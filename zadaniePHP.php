@@ -33,7 +33,7 @@
         <input type="text" id="name" placeholder="Jakub" autofocus>
         <span class="error">* <?php echo $nameErr;?></span>
         
-        <p>    </p>
+        <p>  </p>
 
         <label for="name">Priezvisko:</label>
         <input type="text" id="surname" placeholder="Lovec" autofocus>
