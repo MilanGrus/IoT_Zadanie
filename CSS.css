@@ -73,6 +73,14 @@ input[type="text"] {
     font-weight: bold;
     color: black;
 }
+
+input[type="text"] {
+    align-content: right;
+    font-size: 15px;
+    font-family: 'Palatino Linotype', Georgia, 'Times New Roman';
+    font-weight: bold;
+    color: black;
+}
 /*
 @keyframes animation {
     0%   {background-color:red; left:0px; top:0px;}

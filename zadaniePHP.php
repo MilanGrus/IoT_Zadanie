@@ -30,26 +30,32 @@
       
     <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
         <label for="name">Meno:</label>
-        <input type="text" id="name" placeholder="Jakub" autofocus>
+        <input type="text" name="name" placeholder="Jakub" autofocus>
         <span class="error">* <?php echo $nameErr;?></span>
         
-        <p>  </p>
+        
 
         <label for="name">Priezvisko:</label>
-        <input type="text" id="surname" placeholder="Lovec" autofocus>
+        <input type="text2" name="surname" placeholder="Lovec" autofocus>
         <span class="error">* <?php echo $nameErr;?></span>
 
         <br> <br>
 
         <label for="name">Mobil:</label>
-        <input type="text" id="tel_num" placeholder="0988 888 882" autofocus>
+        <input type="text" name="tel_num" placeholder="0988 888 882" autofocus>
         <span class="error">* <?php echo $nameErr;?></span>
       
         <br> <br>
 
-        <label for="name">Mail:</label>
-        <input type="text" id="email" placeholder="jakublovec@gmail.com" autofocus>
+        <label>Mail:</label>
+        <input type="text" name="email" placeholder="jakublovec@gmail.com" autofocus>
         <span class="error">* <?php echo $nameErr;?></span>
+
+        
+        <label>Pohlavie:</label>
+        <input type="radio" name="gender" value="zena">Zena
+        <input type="radio" name="gender" value="muz">Muz
+        <input type="radio" name="gender" value="ine">Ine
     </form>
       
       
