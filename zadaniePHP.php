@@ -1,7 +1,7 @@
 <?php
     
 
-    /*$name = $surname = $tel_num = $email = $gender = $status = $gamer = "";*/
+    $name = $surname = $tel_num = $email = $gender = $status = $gamer = "";
     
 
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
