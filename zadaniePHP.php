@@ -51,13 +51,13 @@
 
         <label for="name">Mobil:</label>
         <input type="text" name="tel_num" placeholder="0988 888 882" autofocus>
-        <span class="error2">* <?php echo $nameErr;?></span>
+        <span class="error">* <?php echo $nameErr;?></span>
       
         
 
         <label>Mail:</label>
         <input type="text" name="email" placeholder="jakublovec@gmail.com" autofocus>
-        <span class="error">* <?php echo $nameErr;?></span>
+        <span class="error2">* <?php echo $nameErr;?></span>
 
         <br> <br>
 
