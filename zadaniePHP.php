@@ -29,7 +29,8 @@
 <article>
       
     <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
-        Meno: <input type="text" name="meno" placeholder="Jakub" autofocus>
+        <label for="name">Meno:</label>
+        <input type="text" id="name" name="name" placeholder="Jakub" autofocus>
         <span class="error">* <?php echo $nameErr;?></span>
         
 

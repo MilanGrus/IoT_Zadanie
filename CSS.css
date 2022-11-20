@@ -67,7 +67,7 @@ input {
     text-align: center;
 }
 
-input[type="text"] {
+input[name="name"] {
     font-size: 25px;
     font-weight: bold;
     color: black;
