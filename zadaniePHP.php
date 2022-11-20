@@ -1,7 +1,7 @@
 <?php
     $file1 = fopen("output.txt","w") or die("Unable to open file!");
 
-    
+
 
     fclose($file1);
 ?>
@@ -58,6 +58,19 @@
         <input type="radio" name="gender" value="muž">Muž
         <input type="radio" name="gender" value="žena">Žena
         <input type="radio" name="gender" value="iné">Iné
+        
+        <br> <br>
+
+        <label>Status:</label>
+        <input type="radio" name="status" value="študent">Študent
+        <input type="radio" name="status" value="učiteľ">Učiteľ
+        <input type="radio" name="status" value="iné">Iné
+
+        <br> <br>
+
+        <label>Hral si Dark Souls:</label>
+        <input type="radio" name="gamer" value="áno">Áno
+        <input type="radio" name="gamer" value="nie">Nie
 
         <br> <br>
         <br> <br>
