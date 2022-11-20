@@ -29,6 +29,10 @@
 <article>
       
     <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
+        Meno: <input type="text" name="meno">
+        <span class="error">* <?php echo $nameErr;?></span>
+        
+
         Name: <input type="text" name="name">
         <span class="error">* <?php echo $nameErr;?></span>
         <br><br>
