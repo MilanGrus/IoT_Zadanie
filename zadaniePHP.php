@@ -15,10 +15,10 @@
         $file1 = fopen("output.txt","w") or die("Unable to open file!");
         fwrite($file1, "Meno: ".$_POST['name'].PHP_EOL);
         fwrite($file1, "Priezvisko: ".$_POST['surname'].PHP_EOL);
-        fwrite($file1, "Telefónné číslo: ".$_POST['tel_num'].PHP_EOL);
+        fwrite($file1, "Telefonne cislo: ".$_POST['tel_num'].PHP_EOL);
         fwrite($file1, "E-mail: ".$_POST['email'].PHP_EOL);
         fwrite($file1, "Pohlavie: ".$_POST['gender'].PHP_EOL);
-        fwrite($file1, "Socialný status: ".$_POST['status'].PHP_EOL);
+        fwrite($file1, "Socialny status: ".$_POST['status'].PHP_EOL);
         fwrite($file1, "Je God Gamer?: ".$_POST['gamer'].PHP_EOL);
         fclose($file1);
     }
@@ -75,21 +75,21 @@
         <br> <br>
 
         <label>Pohlavie:</label>
-        <input type="radio" name="gender" value="muž">Muž
-        <input type="radio" name="gender" value="žena">Žena
-        <input type="radio" name="gender" value="iné">Iné
+        <input type="radio" name="gender" value="muz">Muž
+        <input type="radio" name="gender" value="zena">Žena
+        <input type="radio" name="gender" value="ine">Iné
 
         <br> <br>
 
         <label>Status:</label>
-        <input type="radio" name="status" value="študent">Študent
-        <input type="radio" name="status" value="učiteľ">Učiteľ
-        <input type="radio" name="status" value="iné">Iné
+        <input type="radio" name="status" value="student">Študent
+        <input type="radio" name="status" value="ucitel">Učiteľ
+        <input type="radio" name="status" value="ine">Iné
 
         <br> <br>
 
         <label>Hral si Dark Souls:</label>
-        <input type="radio" name="gamer" value="áno">Áno
+        <input type="radio" name="gamer" value="ano">Áno
         <input type="radio" name="gamer" value="nie">Nie
 
         <br> <br>
