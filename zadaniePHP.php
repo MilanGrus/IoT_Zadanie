@@ -12,7 +12,7 @@
     $status = $_POST["status"];
     $gamer = $_POST["gamer"];*/
 
-    if(isset($_POST['submit'])){
+    if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $file1 = fopen("output.txt","w") or die("Unable to open file!");
         fwrite($file1, "Meno: ".$_POST['name'].PHP_EOL);
         fwrite($file1, "Priezvisko: ".$_POST['surname'].PHP_EOL);
