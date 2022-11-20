@@ -1,15 +1,16 @@
 <?php
     
 
-    $name = $surname = $tel_num = $email = $gender = $status = $gamer = "";
+    /*$name = $surname = $tel_num = $email = $gender = $status = $gamer = "";*/
+    $name = $surname = $tel_num = $email = "";
 
     $name = $_POST["name"];
     $surname = $_POST["surname"];
     $tel_num = $_POST["tel_num"]
     $email = $_POST["email"];
-    $gender = $_POST["gender"];
+    /*$gender = $_POST["gender"];
     $status = $_POST["status"];
-    $gamer = $_POST["gamer"];
+    $gamer = $_POST["gamer"];*/
 
     if(isset($_POST['submit'])){
         $file1 = fopen("output.txt","w") or die("Unable to open file!");
@@ -17,10 +18,10 @@
         fwrite($file1, "Priezvisko: ".$_POST['surname'].PHP_EOL);
         fwrite($file1, "Telefónné číslo: ".$_POST['tel_num'].PHP_EOL);
         fwrite($file1, "E-mail: ".$_POST['email'].PHP_EOL);
-        fwrite($file1, "Pohlavie: ".$_POST['gender'].PHP_EOL);
+        /*fwrite($file1, "Pohlavie: ".$_POST['gender'].PHP_EOL);
         fwrite($file1, "Socialný status: ".$_POST['status'].PHP_EOL);
         fwrite($file1, "Je God Gamer?: ".$_POST['gamer'].PHP_EOL);
-        fclose($file1);
+        */fclose($file1);
     }
 
     
@@ -50,19 +51,19 @@
       
     <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
         
-        <label for="name">Meno:</label>
+        <label>Meno:</label>
         <input type="text" name="name" placeholder="Jakub" autofocus>
         <span class="error">*</span>
         
         
 
-        <label for="name">Priezvisko:</label>
+        <label>Priezvisko:</label>
         <input type="text" name="surname" placeholder="Lovec" autofocus>
         <span class="error2">*</span>
         
         <br> <br>
 
-        <label for="name">Mobil:</label>
+        <label>Mobil:</label>
         <input type="text" name="tel_num" placeholder="0988 888 882" autofocus>
         <span class="error">*</span>
       
