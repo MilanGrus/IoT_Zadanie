@@ -7,7 +7,7 @@
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $file1 = fopen("output.txt","w") or die("Unable to open file!");
         
-        */fclose($file1);
+        fclose($file1);
     }
 
     
