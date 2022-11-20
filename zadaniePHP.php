@@ -31,7 +31,7 @@
     <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
         
         <label for="name">Meno:</label>
-        <input type="text2" name="name" placeholder="Jakub" autofocus>
+        <input type="text" name="name" placeholder="Jakub" autofocus>
         <span class="error">* <?php echo $nameErr;?></span>
         
         
@@ -55,9 +55,9 @@
         <br> <br>
 
         <label>Pohlavie:</label>
-        <input type="radio" name="gender" value="zena">Zena
-        <input type="radio" name="gender" value="muz">Muz
-        <input type="radio" name="gender" value="ine">Ine
+        <input type="radio" name="gender" value="muž">Muž
+        <input type="radio" name="gender" value="žena">Žena
+        <input type="radio" name="gender" value="iné">Iné
     </form>
       
       

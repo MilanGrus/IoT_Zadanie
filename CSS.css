@@ -76,14 +76,6 @@ input[type="text"] {
     color: black;
 }
 
-input[type="text2"] {
-    margin-right: 40px;
-    font-size: 15px;
-    font-family: 'Palatino Linotype', Georgia, 'Times New Roman';
-    font-weight: bold;
-    color: black;
-}
-
 input[type="radio"] {
     margin-left: 20px;
     font-size: 15px;
@@ -93,7 +85,7 @@ input[type="radio"] {
 }
 
 .error {
-    margin-right: 40px;
+    margin-right: 50px;
     color: red; 
 }
 
