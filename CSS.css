@@ -21,8 +21,6 @@ header,article {
  
 header {
     height: 160px;
-    background-image: url(obr.jpg);
-    background-repeat: no-repeat;
     text-align: center;
     position: relative;
     animation: animation 5s linear 2s infinite alternate;
@@ -60,6 +58,13 @@ text-align: justify;
 font-size: 150%;
 text-indent: 10px;
 color: black;
+}
+
+input {
+    border-radius: 5px;
+    border-style: none;
+    padding: 0.5rem;
+    text-align: center;
 }
 
 input[type="text"] {
