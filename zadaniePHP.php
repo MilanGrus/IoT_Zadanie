@@ -51,6 +51,7 @@
         <input type="text" name="email" placeholder="jakublovec@gmail.com" autofocus>
         <span class="error">* <?php echo $nameErr;?></span>
 
+        <br> <br>
         
         <label>Pohlavie:</label>
         <input type="radio" name="gender" value="zena">Zena
