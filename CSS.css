@@ -63,7 +63,7 @@ input {
     text-align: center;
 }
 
-input[name="name"] {
+input[type="text"] {
     font-size: 15px;
     font-family: Georgia, 'Palatino Linotype', 'Times New Roman';
     font-weight: bold;
