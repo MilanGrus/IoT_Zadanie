@@ -23,6 +23,8 @@ header {
     height: 160px;
     text-align: center;
     position: relative;
+    background-image: url(obr.jpg);
+    background-repeat: no-repeat;
     animation: animation 6s linear 3s infinite alternate;
 }
  
@@ -98,6 +100,6 @@ input[type="radio"] {
     0%   {color: black; left:0px;}
     25%  {color: green; left:-200px;}
     50%  {color: red; left:0px;}
-    75%  {color: purple; left:200px;}
+    75%  {color: white; left:200px;}
     100% {color: black; left:0px;}
 }
