@@ -39,7 +39,7 @@ article {
 } 
 
 h1, h2 {
-    text-shadow: 5px 3px 3px #333333, 10px 5px 5px red;
+    text-shadow: none;/*5px 3px 3px #333333, 10px 5px 5px red;*/
 }            
 
 h1.b {
@@ -50,7 +50,7 @@ color: dark silver;
 }   
                      
 h2 {
-font-size: 40px;
+font-size: 25px;
 }
 
 p {
