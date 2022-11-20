@@ -42,9 +42,16 @@
 
         <br> <br>
 
+        <label>Pohlavie:</label>
+        <input type="radio" name="gender" value="muž">Muž
+        <input type="radio" name="gender" value="žena">Žena
+        <input type="radio" name="gender" value="iné">Iné
+        
+        <br> <br>
+
         <label for="name">Mobil:</label>
         <input type="text" name="tel_num" placeholder="0988 888 882" autofocus>
-        <span class="error">* <?php echo $nameErr;?></span>
+        <span class="error2">* <?php echo $nameErr;?></span>
       
         <br> <br>
 
@@ -52,13 +59,6 @@
         <input type="text" name="email" placeholder="jakublovec@gmail.com" autofocus>
         <span class="error">* <?php echo $nameErr;?></span>
 
-        <br> <br>
-
-        <label>Pohlavie:</label>
-        <input type="radio" name="gender" value="muž">Muž
-        <input type="radio" name="gender" value="žena">Žena
-        <input type="radio" name="gender" value="iné">Iné
-        
         <br> <br>
 
         <label>Status:</label>

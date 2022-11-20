@@ -81,6 +81,7 @@ input[type="radio"] {
     font-size: 15px;
     font-family: 'Palatino Linotype', Georgia, 'Times New Roman';
     font-weight: bold;
+    text-align: center;
     color: black;
 }
 
@@ -89,6 +90,7 @@ input[type="submit"] {
     font-size: 20px;
     font-family: 'Dancing Script', 'Palatino Linotype', Georgia, 'Times New Roman';
     font-weight: bold;
+    text-align: right;
     color: white;
     background-color: red;
 }
