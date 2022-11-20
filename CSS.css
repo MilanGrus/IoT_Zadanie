@@ -37,18 +37,14 @@ article {
          filter: alpha(opacity=60);
          color: black;
 } 
-
-h1, h2 {
-    text-shadow: none;/*5px 3px 3px #333333, 10px 5px 5px red;*/
-}            
-
+           
 h1.b {
 text-shadow: none;
 font-size: 55px;
 font-family: Akzidenz-Grotesk, Clarendon, Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
 color: dark silver;
 }   
-                     
+/*                     
 h2 {
 font-size: 25px;
 }
@@ -59,7 +55,7 @@ font-size: 150%;
 text-indent: 10px;
 color: black;
 }
-
+*/
 input {
     border-radius: 5px;
     border-style: none;
