@@ -24,6 +24,7 @@ header {
     background-image: url(obr.jpg);
     background-repeat: no-repeat;
     text-align: center;
+    position: relative;
     animation: animation 5s linear 2s infinite alternate;
 }
  
