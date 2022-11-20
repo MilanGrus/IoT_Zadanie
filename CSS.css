@@ -63,8 +63,10 @@ color: black;
 input {
     border-radius: 5px;
     border-style: none;
+    border-color: blueviolet;
     padding: 0.5rem;
     text-align: center;
+    background-color: aliceblue;
 }
 
 input[type="text"] {
@@ -75,7 +77,7 @@ input[type="text"] {
 }
 
 input[type="text2"] {
-    margin-right: 10px;
+    margin-right: 40px;
     font-size: 15px;
     font-family: 'Palatino Linotype', Georgia, 'Times New Roman';
     font-weight: bold;
@@ -83,7 +85,7 @@ input[type="text2"] {
 }
 
 input[type="radio"] {
-    margin-left: 10px;
+    margin-left: 15px;
     font-size: 15px;
     font-family: 'Palatino Linotype', Georgia, 'Times New Roman';
     font-weight: bold;
