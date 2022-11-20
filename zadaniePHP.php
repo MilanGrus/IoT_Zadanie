@@ -4,7 +4,15 @@
     $name = $surname = $tel_num = $email = $gender = $status = $gamer = "";
     
 
-    if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $name = $_POST["name"];
+    $surname = $_POST["surname"];
+    $tel_num = $_POST["tel_num"]
+    $email = $_POST["email"];
+    $gender = $_POST["gender"];
+    $status = $_POST["status"];
+    $gamer = $_POST["gamer"];
+
+    if(isset($_POST['submit'])){
         $file1 = fopen("output.txt","w") or die("Unable to open file!");
         
         fclose($file1);
