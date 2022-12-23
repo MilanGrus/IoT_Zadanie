@@ -1,3 +1,1 @@
-# IoT_Zadanie
-
-#Zadanie z IoT
+# KGB SmartHome Control Centre
