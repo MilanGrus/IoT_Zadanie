@@ -3,25 +3,21 @@
 
     $cislo1 = $operator1 = $cislo2 = $operator2 = $cislo3 = "";
 
-    $cislo1 = $_POST["name"];
-    $operator1 = $_POST["surname"];
-    $cislo2 = $_POST["tel_num"];
-    $operator2 = $_POST["email"];
-    $cislo3 = $_POST["gender"];
+    $cislo1 = $_POST["cislo1"];
+    $operator1 = $_POST["operator1"];
+    $cislo2 = $_POST["cislo2"];
+    $operator2 = $_POST["operator2"];
+    $cislo3 = $_POST["cislo3"];
  
-/*
+
     if(isset($_POST['submit'])){
         $file1 = fopen("output.txt","w") or die("Unable to open file!");
-        fwrite($file1, "Meno: ".$_POST['name'].PHP_EOL);
-        fwrite($file1, "Priezvisko: ".$_POST['surname'].PHP_EOL);
-        fwrite($file1, "Telefonne cislo: ".$_POST['tel_num'].PHP_EOL);
-        fwrite($file1, "E-mail: ".$_POST['email'].PHP_EOL);
-        fwrite($file1, "Pohlavie: ".$_POST['gender'].PHP_EOL);
-        fwrite($file1, "Socialny status: ".$_POST['status'].PHP_EOL);
-        fwrite($file1, "Je God Gamer?: ".$_POST['gamer'].PHP_EOL);
+
+        fwrite($file1, "Cislo1: ".$_POST['cislo1'].PHP_EOL);
+
         fclose($file1);
     }
-*/
+
     
 ?>
 
@@ -46,15 +42,29 @@
       
     <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
         
-        <label>Meno:</label>
-        <input type="text" name="name">
+        <label>Cislo1:</label>
+        <input type="text" name="cislo1">
+
+        <label>Operator1:</label>
+        <input type="text" name="operator1">
+
+        <label>Cislo2:</label>
+        <input type="text" name="cislo2">
+
+        <label>Operator2:</label>
+        <input type="text" name="operator2">
+
+        <label>Cislo3:</label>
+        <input type="text" name="cislo3">
+
+        <br> <br>
+        
+        <input type="submit" name="submit" value="Odoslať">  
 
     </form>
       
       
 </article>
-
-
 
 </body>
 
