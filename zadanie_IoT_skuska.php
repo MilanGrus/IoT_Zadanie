@@ -16,6 +16,8 @@
         fwrite($file1, "Cislo1: ".$_POST['cislo1'].PHP_EOL);
 
         fclose($file1);
+
+        echo "Dakujem"
     }
 
     
