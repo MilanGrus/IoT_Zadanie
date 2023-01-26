@@ -17,7 +17,21 @@
 
         fclose($file1);
 
-        echo "Dakujem"
+
+        $vysledok1 = 
+        $vysledok2 =
+
+        if($operator1 == "*"){
+            fwrite($file1, "Operator1: ".$_POST['cislo1'].PHP_EOL);
+        }
+        
+
+
+        $textD = "dakujem";
+
+
+
+        echo $textD;
     }
 
     
