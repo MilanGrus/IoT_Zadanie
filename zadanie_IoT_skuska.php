@@ -15,12 +15,12 @@
 
         fwrite($file1, "Cislo1: ".$_POST['cislo1'].PHP_EOL);
 
-        fclose($file1);
+        
 
-
+/*
         $vysledok1 = 
         $vysledok2 =
-
+*/
         if($operator1 == "*"){
             fwrite($file1, "Operator1: ".$_POST['cislo1'].PHP_EOL);
         }
@@ -29,7 +29,7 @@
 
         $textD = "dakujem";
 
-
+        fclose($file1);
 
         echo $textD;
     }
