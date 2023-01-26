@@ -13,25 +13,31 @@
     if(isset($_POST['submit'])){
         $file1 = fopen("output.txt","w") or die("Unable to open file!");
 
-        fwrite($file1, "Cislo1: ".$_POST['cislo1'].PHP_EOL);
+        $vysledok1 = 0;
+        $vysledok2 = 0;
+
+
+        if($operator1 == "+")
+            $vysledok1 = $cislo1 + $cislo2;
+        else if($operator1 == "-")
+            $vysledok1 = $cislo1 - $cislo2;
+        else if($operator1 == "*")
+            $vysledok1 = $cislo1 * $cislo2;
+        else if($operator1 == "/")
+            $vysledok1 = $cislo1 / $cislo2;
+
+        if($operator2 == "+")
+            $vysledok2 = $vysledok1 + $cislo3;
+        else if($operator2 == "-")
+            $vysledok2 = $vysledok1 - $cislo3;
+        else if($operator2 == "*")
+            $vysledok2 = $vysledok1 * $cislo3;
+        else if($operator2 == "/")
+            $vysledok2 = $vysledok1 / $cislo3;
 
         
+        echo "Vysledok = " . $vysledok2;
 
-/*
-        $vysledok1 = 
-        $vysledok2 =
-*/
-        if($operator1 == "*"){
-            fwrite($file1, "Operator1: ".$_POST['cislo1'].PHP_EOL);
-        }
-        
-
-
-        $textD = "dakujem";
-
-        fclose($file1);
-
-        echo $textD;
     }
 
     
